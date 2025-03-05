@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   AreaChart as RechartsAreaChart,
@@ -189,14 +188,14 @@ export const LineChartWithForecast: React.FC<LineChartWithForecastProps> = ({ da
         <Area 
           type="monotone" 
           dataKey="upper" 
-          stroke={false}
+          stroke="none"
           fill="url(#splitColor)" 
           name="Confidence Interval"
         />
         <Area 
           type="monotone" 
           dataKey="lower" 
-          stroke={false}
+          stroke="none"
           fill="transparent" 
         />
         
